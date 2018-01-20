@@ -2,11 +2,14 @@
   "name": "spring-board",
   "version": "1.0.0",
   "description": "Launcher page for my web browser",
-  "main": "index.js",
   "scripts": {
     "dev": "gulp watch & serve statics",
     "start": "gulp && serve statics",
     "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unixzii/SpringBoard.git"
   },
   "author": "cyandev <unixzii@gmail.com>",
   "license": "MIT",
