@@ -4,7 +4,7 @@ define(['jquery'], function ($) {
   return {
     load(cb) {
       $.get({
-        url: '/bookmark.json',
+        url: 'bookmark.json',
         success(data) {
           loadedData = data;
           cb();
