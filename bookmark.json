@@ -1,0 +1,78 @@
+[
+  {
+    "title": "日常",
+    "items": [
+      { "title": "微博", "url": "https://weibo.com" },
+      { "title": "知乎", "url": "https://zhihu.com" },
+      { "title": "掘金", "url": "http://juejin.im" },
+      { "title": "GitHub", "url": "https://github.com" },
+      { "title": "Google", "url": "https://google.com" },
+      { "title": "Gmail", "url": "https://mail.google.com" },
+      { "title": "YouTube", "url": "https://youtube.com" },
+      { "title": "Twitter", "url": "https://twitter.com" },
+      { "title": "淘宝", "url": "https://taobao.com" },
+      { "title": "天猫", "url": "https://tmall.com" },
+      { "title": "京东", "url": "https://jd.com" },
+      { "title": "Bilibili", "url": "https://bilibili.com" }
+    ]
+  },
+  {
+    "title": "音乐",
+    "items": [
+      { "title": "网易云音乐", "url": "http://music.163.com/" },
+      { "title": "QQ 音乐", "url": "https://y.qq.com/" },
+      { "title": "SoundCloud", "url": "https://soundcloud.com/" }
+    ]
+  },
+  {
+    "title": "设计",
+    "items": [
+      { "title": "Dribbble", "url": "https://dribbble.com/" },
+      { "title": "Behance", "url": "https://www.behance.net/" },
+      { "title": "Unsplash", "url": "https://unsplash.com/" },
+      { "title": "Icons8", "url": "https://icons8.com/" },
+      { "title": "Font Awesome", "url": "http://fontawesome.io/" }
+    ]
+  },
+  {
+    "title": "资讯",
+    "items": [
+      { "title": "Zealer", "url": "http://www.zealer.com/" },
+      { "title": "V2EX", "url": "https://v2ex.com/" },
+      { "title": "什么值得买", "url": "https://www.smzdm.com/" },
+      { "title": "少数派", "url": "https://sspai.com/" },
+      { "title": "Mac 玩法", "url": "https://www.waerfa.com/" }
+    ]
+  },
+  {
+    "title": "播客",
+    "items": [
+      { "title": "IPN", "url": "" }
+    ]
+  },
+  {
+    "title": "前端技术参考",
+    "items": [
+      { "title": "ReactiveX", "url": "http://weibo.com" },
+      { "title": "React", "url": "http://weibo.com" },
+      { "title": "Angular", "url": "http://weibo.com" },
+      { "title": "Webpack", "url": "http://weibo.com" },
+      { "title": "Babel", "url": "http://weibo.com" },
+      { "title": "npm", "url": "http://weibo.com" },
+      { "title": "CSS Tricks", "url": "http://weibo.com" },
+      { "title": "Sass", "url": "http://weibo.com" },
+      { "title": "Bootstrap", "url": "http://weibo.com" },
+      { "title": "Lodash", "url": "http://weibo.com" },
+      { "title": "TypeScript", "url": "http://weibo.com" },
+      { "title": "Node.js", "url": "http://weibo.com" }
+    ]
+  },
+  {
+    "title": "iOS 参考",
+    "items": [
+      { "title": "Apple Developer", "url": "http://weibo.com" },
+      { "title": "objc.io", "url": "http://weibo.com" },
+      { "title": "NSHipster", "url": "http://weibo.com" }
+    ]
+  }
+]
