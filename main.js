@@ -1,7 +1,7 @@
 requirejs.config({
-  baseUrl: '/dist/js',
+  baseUrl: 'dist/js',
   paths: {
-    jquery: '/vendors/jquery-3.2.1.min'
+    jquery: 'vendors/jquery-3.2.1.min'
   }
 });
 
