@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>SpringBoard</title>
+  <link rel="stylesheet" href="/vendors/bootstrap/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="/vendors/bootstrap/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="/dist/css/index.css">
+</head>
+<body class="loading">
+  <aside class="sidebar">
+    <h1>Categories</h1>
+    <ul class="categories-list">
+      <li class="category" id="categoryItemTpl">
+        <span class="title">List Item</span>
+        <span class="subtitle">NaN</span>
+      </li>
+    </ul>
+  </aside>
+  <main class="main">
+    <div class="main-item" id="mainItemTpl">
+      <h2>Title</h2>
+      <ul class="chips-list">
+        <li id="chipItemTpl" class="chip"><a href="#" target="_blank">Chip</a></li>
+      </ul>
+    </div>
+  </main>
+  <script src="/vendors/require.js" data-main="/main"></script>
+</body>
+</html>

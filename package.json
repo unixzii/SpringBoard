@@ -1,0 +1,26 @@
+{
+  "name": "spring-board",
+  "version": "1.0.0",
+  "description": "Launcher page for my web browser",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp watch & serve statics",
+    "start": "gulp && serve statics",
+    "build": "gulp"
+  },
+  "author": "cyandev <unixzii@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-plugin-css-modules-transform": "^1.4.0",
+    "babel-preset-env": "^1.6.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "node-sass": "^4.7.2",
+    "postcss": "^6.0.16",
+    "postcss-cssnext": "^3.0.2",
+    "serve": "^6.4.8"
+  }
+}

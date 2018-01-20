@@ -1,0 +1,100 @@
+html {
+  font-size: 10pt;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body.loading {
+  display: none;
+}
+
+.sidebar {
+  position: fixed;
+  width: 26rem;
+  height: 100vh;
+  padding: 2rem 3rem;
+  overflow-y: auto;
+
+  h1 {
+    font-size: 2.4rem;
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+
+  .categories-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .category {
+    padding: .56rem .92rem;
+    margin-bottom: .2rem;
+    color: #666;
+    border-radius: .4rem;
+
+    &:hover {
+      background-color: #f0f0f0;
+      cursor: pointer;
+    }
+
+    .subtitle {
+      float: right;
+      opacity: 0.5;
+    }
+  }
+}
+
+.main {
+  position: relative;
+  left: 26rem;
+  width: calc(100% - 26rem);
+  padding: 3rem 5rem;
+
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .chips-list {
+    display: flex;
+    padding: 0;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+
+  .chip {
+    margin-right: .6rem;
+    margin-bottom: 1.8rem;
+  }
+
+  .chip>a {
+    padding: .5rem 1.2rem;
+    border: 1px solid #ddd;
+    border-radius: .4rem;
+    transition: all .3s;
+
+    &:hover {
+      text-decoration: none;
+      background-color: #fafafa;
+    }
+
+    &:active {
+      background-color: #eee;
+      color: #222;
+    }
+  }
+}
+
+.main-item {
+  margin-bottom: 1rem;
+}
+
+@media(max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+
+  .main {
+    left: 0;
+    width: 100%;
+  }
+}
