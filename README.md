@@ -22,7 +22,7 @@ npm start
 
 ## bookmark.json
 
-This is the database of `SpringBoard` project, and the structure of its content looks like this:
+This is the database of **SpringBoard** project, and the structure of its content looks like this:
 
 ```json
 [
@@ -48,4 +48,4 @@ All PRs are welcomed!
 
 ## License
 
-The project is available under the MIT license. See the LICENSE file for more info.
+The project is available under the MIT license. See the `LICENSE` file for more info.
